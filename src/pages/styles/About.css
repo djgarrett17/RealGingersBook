@@ -1,0 +1,223 @@
+.aboutWrap{
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+    padding: 200px 0px 150px 0px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.aboutTitleDiv{
+    padding-bottom: 100px;
+    width: 90%;
+}
+
+.aboutTitle{
+    color: #4d4d4d;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.aboutGinger{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    
+}
+.aboutGingerTxtWhole{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+.aboutTxtTitle{
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    color: #4d4d4d;
+}
+.aboutGingerTxtSubTitle{
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+.aboutTxtBody{
+    color: #4d4d4d;
+    line-height: 25px;
+    margin: 20px 0px;
+}
+
+
+
+
+.aboutJohnEd{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.aboutJohnEdTxtWhole{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    
+}
+
+.aboutJohnEdTxtTitle{
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.aboutJohnEdTxtSubTitle{
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+.aboutJohnEdTxtBody{
+    color: rgb(77, 77, 77);
+    line-height: 25px;
+}
+
+
+
+
+
+.aboutNancy{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+.aboutNancyTxtWhole{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+.aboutNancyTxtTitle{
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.aboutNancyTxtSubTitle{
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+.aboutNancyTxtBody{
+    color: rgb(77, 77, 77);
+    line-height: 25px;
+}
+
+
+
+
+.imageGingerDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+.imageJohnEdDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+.imageNancyDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+#imageGinger{
+    height: 320px;
+    border-radius: 5px;
+}
+
+#imageJohnEd{
+    height: 320px;
+    border-radius: 5px;
+}
+#imageNancy{
+    height: 320px;
+    border-radius: 5px;
+}
+.hrDiv{
+    display: flow-root;
+}
+.aboutHr{
+    border: solid 5px #4d4d4d;
+    float: left;
+    width: 35%;
+}
+.teamHr{
+    border: solid 1px #4d4d4d; 
+    width: 100%;
+}
+
+@media only screen and (max-width: 1025px){
+    
+    
+}
+
+@media only screen and (max-width: 768px){
+   .aboutGinger{
+       flex-direction: column;
+       align-items: center;
+   }
+   .aboutJohnEd{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .aboutNancy{
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutGingerTxtWhole{
+        width: 100%;
+    }
+    .aboutJohnEdTxtWhole{
+        width: 100%;
+    }
+    .aboutNancyTxtWhole{
+        width: 100%;
+    }
+    .imageGingerDiv{
+        padding-bottom: 30px;
+    }
+    .imageJohnEdDiv{
+        padding-bottom: 30px;
+    }
+    .imageNancyDiv{
+        padding-bottom: 30px;
+    }
+    .aboutTxtTitle{
+        text-align: center;
+    }
+    .aboutNancyTxtSubTitle{
+        text-align: center;
+    }
+    .aboutGingerTxtSubTitle{
+        text-align: center;
+    }
+    .aboutJohnEdTxtSubTitle{
+        text-align: center;
+    }
+   
+    
+}
+
+@media only screen and (max-width: 450px){
+    
+    
+    
+}

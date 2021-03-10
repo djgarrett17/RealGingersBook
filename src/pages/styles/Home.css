@@ -1,0 +1,323 @@
+.homeWrap{
+    width: 100% !important;
+    height: 100%;
+    /* overflow: hidden; */
+}
+#homeLogo{
+    height: 50px;
+    width: 50px;
+}
+
+
+.homeTopWhole{
+    /* background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) ), url(./images/herobg.jpg); */
+    background-size: cover;
+    /* background-image: url(./images/GingerZoomed.png); */
+    background-position: center;
+    height: 100vh;
+}
+
+
+
+
+.homeTitleDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+/* .homeTitleBigTxt{
+    width: 100%;
+    font-size: 95px;
+    color: rgb(202, 18, 18);
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+    margin-bottom: -60px;
+    padding-top: 100px;
+}
+.homeTitleSmallTxt{
+    width: 100%;
+    font-size: 85px;
+    color: white;
+    padding-bottom: 5px;
+    font-family: 'Noto Serif', serif;
+} */
+#titleImage1{
+    height: 220px;
+    width: 600px;
+
+}
+.middleTxtEyeWitness{
+    font-size: 25px;
+    font-weight: 500;
+    color: whitesmoke;
+    /* color: rgb(92, 17, 17); */
+    padding-bottom: 75px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+.addToCartBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shopBtn{
+    color: white;
+    padding: 30px 60px;
+    background-color: rgba(34, 115, 150, 0.5);
+    /* background-color: rgba(4, 95, 98, 0.5); */
+    /* border: 5px solid #18556e; */
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    /* border-radius: 3px; */
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+}
+#kpBounce{
+    height: 340px;
+    width: 430px;
+    margin-bottom: 180px;
+}
+
+.homeMiddleWhole{
+    display: flex;
+    /* background-color: darkred; */
+}
+.homeMiddleLeft{
+    width: 40%;
+    height: 100vh;
+    background-color: rgb(40, 40, 42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.midHr{
+    border-bottom: solid 8px #f5f5f5c7;
+    width: 30%;
+    float: left
+}
+.homeMiddleInnerLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+
+}
+.homeMiddleLeftTitle{
+    font-weight: 500;
+    color: white;
+    font-size: xx-large;
+    padding-bottom: 40px;
+    width: 100%;
+}
+.homeMiddleLeftText{
+    color: rgb(196, 196, 196);
+    font-size: large;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 30px;
+    line-height: 30px;
+
+
+}
+.homeMiddleLeftSigned{
+    color: white;
+    width: 100%;
+    text-align: end;
+    font-size: 18px;
+    padding-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.homeMiddleRight{
+    /* background-image: url(./images/GingerZoomed.png); */
+    width: 60%;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+}
+
+.hrDiv{
+    display: contents;
+}
+
+
+
+
+
+
+
+.homeBottomWhole{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 49, 70, 0.904);
+    padding: 50px 0px;
+    padding-bottom: 100px;
+}
+.homeBottomTitle{
+    font-size: 40px;
+    color: rgb(248, 245, 245);
+    padding: 40px 0px;
+}
+.homeBottomGingerAndEdDiv{
+    display: flex;
+    width: 100%;
+    margin: 50px 0px;
+    /* justify-content: space-around; */
+}
+.homeBottomTeam{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px;
+}
+.homeBottomText{
+    font-size: 25px;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+.homeBottomSubText{
+    font-size: 18px;
+    font-style: italic;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.homeBottomButton{
+    color: white;
+    font-weight: 600;
+    background-color: rgba(34, 115, 150, 0.5);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#authorImage1{
+    height: 400px;
+    /* height: 200px; */
+    border-radius: 5px;
+    
+}
+#authorImage2{
+    /* height: 400px; */
+    /* height: 200px; */
+    border-radius: 5px;
+    height: 400px;
+}
+#authorImage3{
+    /* height: 400px; */
+    /* height: 200px; */
+    border-radius: 5px;
+    height: 400px;
+}
+.arrow{
+    margin-left: 40px;
+    /* color: rgb(202, 18, 18); */
+}
+.arrowTop{
+    margin-left: 40px;
+}
+.react-parallax-bgimage{
+    filter: brightness(0.2) !important;
+}
+
+@media only screen and (max-width: 1025px){
+    .homeMiddleLeftTitle{
+        font-size: x-large;
+    }
+    .homeMiddleLeftText{
+        line-height: 26px;
+    }
+    
+}
+
+@media only screen and (max-width: 768px){
+    /* .homeTitleBigTxt{
+        font-size: 65px;
+        margin-bottom: -40px;
+    }
+    .homeTitleSmallTxt{
+        font-size: 58px;
+    } */
+    #titleImage1{
+        height: 140px;
+        width: 360px;
+    }
+    .middleTxtEyeWitness{
+        font-size: 16px;
+    }
+    .homeMiddleWhole{
+        flex-direction: column;
+    }
+    .homeMiddleLeft{
+        width: 100%;
+        background-color: rgba(40, 40, 42, 0.61);
+    
+    }
+    .homeMiddleLeftText{
+        line-height: 30px;
+    }
+    .homeMiddleRight{
+        width: 100%;
+        height: 0vh;
+    }
+    .homeBottomGingerAndEdDiv{
+        flex-direction: column;
+    }
+    
+}
+
+@media only screen and (max-width: 450px){
+    /* .homeTitleBigTxt{
+        font-size: 45px;
+        margin-bottom: -30px;
+    }
+    .homeTitleSmallTxt{
+        font-size: 40px;
+    } */
+    #titleImage1{
+        height: 100px;
+        width: 280px;
+    }
+    .middleTxtEyeWitness{
+        font-size: 12px;
+    }
+    .shopBtn{
+        padding: 20px 30px;
+        font-size: 14px;
+        
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
